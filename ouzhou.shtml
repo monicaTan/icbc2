@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>欧洲</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="wrap wrap-grey">
+		<div class="header" style="height:0;"></div>
+		<!-- top -->
+		<!--#include file="inc/nav.shtml"-->
+
+		<div class="head-img Europe-bg"><!-- 五大洲背景主图不一样 -->
+			<div class="theme-font">
+				<span>欧洲</span>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="inner-module">
+				<h2 class="title clearfix">
+					<span>攻略游记</span>
+				</h2>
+				<div class="water-list">
+					<ul class="clearfix">
+						<!-- 开始 -->
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg1.jpg" width="320" height="280">
+								<!-- 列表图片宽高限制： width="320" height="280" -->
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- 结束 -->
+
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg4.jpg" width="320" height="280">
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg3.jpg" width="320" height="280">
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg2.jpg" width="320" height="280">
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg3.jpg" width="320" height="280">
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<a class="item-img" href="detail.shtml">
+								<img src="images/bg2.jpg" width="320" height="280">
+							</a>
+							<div class="item-info">
+								<h4>
+									<a href="detail.shtml">法国巴黎 24小时 | 咖啡 生活 美食</a>
+								</h4>
+								<div class="clearfix">
+									<div class="list-info left">
+										<div class="clearfix">
+											<span>2015.09.15</span>
+											<span class="icon-pepole">20人</span>
+											<span class="icon-heart">200</span>
+											<span class="item-author">作者：苹果姐姐</span>
+										</div>
+									</div>
+									<div class="circle-img right">
+										<img src="images/face.jpg" width="40" height="40">
+										<img class="circle-mask" src="images/circle40.png" width="40" height="40">
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--#include file="inc/footer.shtml"-->
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//固定顶部导航
+			var headHeight=$(".header").height();
+			var nav=$(".nav");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav.addClass("navFix");
+				}
+				else{
+					nav.removeClass("navFix");
+				}
+			});
+
+
+
+			//下拉框
+			
+			$(".user-center ul").hide();
+			$('.logged-on').mouseover(function(){
+				$(".user-center ul").show();
+			});
+			$('.logged-on').mouseout(function(){
+				$(".user-center ul").hide();
+			});
+		}) 
+	</script>
+</body>
+</html>

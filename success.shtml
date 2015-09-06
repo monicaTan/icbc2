@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>上传成功</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="wrap wrap-grey">
+		<!-- top -->
+		<!--#include file="inc/nav.shtml"-->
+
+		<div class="main">
+			<div class="inner-module">
+				<div class="status-success">
+					<p class="status-img">
+						<img src="images/yes.png" width="61" height="61">
+						上传成功
+					</p>
+					<p class="back-link">
+						<a href="javascript:;">点击查看</a>
+						<span>
+							或&nbsp;<a href="index.shtml">返回首页</a>
+						</span>
+					  </p>
+				</div>
+			</div>
+		</div>
+
+		<!--#include file="inc/footer.shtml"-->
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//下拉框
+			
+			$(".user-center ul").hide();
+			$('.logged-on').mouseover(function(){
+				$(".user-center ul").show();
+			});
+			$('.logged-on').mouseout(function(){
+				$(".user-center ul").hide();
+			});
+		}) 
+	</script>
+</body>
+</html>

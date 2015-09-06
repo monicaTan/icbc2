@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>游记详情</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="wrap wrap-grey">
+		<!-- top -->
+		<!--#include file="inc/nav.shtml"-->
+
+		<div class="details-banner">
+			<div class="head-details"><!-- 可更换背景图片 -->
+				<div class="details-title">
+					<h1>
+						<a href="javascript:;">法国巴黎 24小时 | 咖啡 生活 美食</a>
+					</h1>
+				</div>
+			</div>
+			<div class="details-mark">
+				<div class="inner-module clearfix">
+					<div class="mark-left">
+						<div class="mark-left-inner">
+							<a class="face-img" href="javascript:;">
+								<img src="images/face.jpg" height="120" width="120">
+							</a>
+							<p class="clearfix">
+								<span>作者：苹果姐姐</span>
+								<span class="detail-time">2015-09-15</span>
+								<span class="glance">20人</span>  
+							</p>
+						</div>
+					</div>
+					<div class="mark-right">
+						<div class="clearfix">
+							<a class="target-addr" href="javascript:;">欧洲</a>
+							<a class="like" href="javascript:;">喜欢</a>
+							<a class="share" href="javascript:;">分享</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="inner-module details-grey">
+				<div class="details-container clearfix">
+					<div class="details-left-bar">
+						<div class="block-module">
+							<h2>游记路线：<span id="line-t"></span></h2>
+							<div class="travel-line">
+								上海 — 巴黎 — 巴黎歌剧院 — 香榭丽舍大道 — 埃菲尔铁塔 — 巴士底 — 巴黎圣母院 — 尼斯 — 北京
+							</div>
+						</div>
+						<div class="block-module">
+							<h2>游记记录：<span id="record-t"></span></h2>
+							<div class="travel-record">
+								<p>
+									从小每去一个地方之前一定要看数篇游记，自己写还是头一回。早就和男票商量好去欧洲的事，有些许期待，紧张和小兴奋。忙过惨绝人寰的大四上学期，结束了大学最后的考试，结束了美研申请，结束了事务所实习，好像一切的一切都只为腾出这美好的几个月，来实现这次大计划。
+								</p>
+								<p>
+									在最开始的开始，我们也像大部分心灵鸡汤的传颂者一样，曾风靡朋友圈微博的几句人生就想要一次说走就走的旅行，什么心和脚步总有一个在路上，什么世界那么大，我想去看看，也被我无数次默默转发过。当真正要开始准备长达一个多月的行程的时候，当面临未知，复杂和恐惧，对于大多数人鸡汤也就仅仅只是文字而已了，转发也就是转转罢了。只有周密的准备，细致的安排和惊喜的过程才能对得起这样的时间和价钱。准备的过程是复杂而漫长的，只有当整个过程顺利的进行下去的时候，你就会感谢出发前那个精打细算的自己。
+								</p>
+								<p>
+									我们还年轻，还在经得起折腾的年纪，想要的，就要不顾一切去实现它，不为青春留下遗憾。这个计划并不是看起来那么顺利，最开始说到去欧洲，其实父母是拒绝的，可能考虑到安全等问题。不过没有解决不了的问题，男票一个电话就把我妈给搞定了。
+								</p>
+								<p>
+									<img src="images/theme_07.jpg">
+									<img src="images/ouzhou.jpg">
+								</p>
+							</div>
+						</div>
+						<div class="block-module">
+							<h2>旅程总结：<span id="summary-t"></span></h2>
+							<div>
+								<p>
+									能看到这的果然都是真爱！！谢谢你们能耐心的看完。这次欧洲之行大概是我人生中最最开心最最难忘的一段经历了。世界这么大，每一处地方都要自己用心去体验才会有不一般的感受，只有自己不断的去做功课，diy路线行程，才能脑补自己对每一个地方的了解。虽然过程繁琐，有时候会很累，但是美景带来的快乐是用钱都买不到的。最后，希望每个驴友都能在对的时间遇到对的人，你带着TA，TA带着钱，任性的走遍全世界～
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="details-right-bar">
+						<div class="right-nav">
+							<ul>
+								<li>
+									<h4>游记目录</h4>
+								</li>
+								<li class="right1">
+									<a class="current" href="#line-t">游记路线</a>
+								</li>
+								<li class="right2">
+									<a href="#record-t">旅程记录</a>
+								</li>
+								<li class="right3">
+									<a href="#summary-t">旅程总结</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--#include file="inc/footer.shtml"-->
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//固定顶部导航
+			var headHeight=$(".details-banner").height();
+			var nav=$(".details-mark");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav.addClass("navFix");
+				}
+				else{
+					nav.removeClass("navFix");
+				}
+			});
+
+			var nav2=$(".right-nav");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav2.addClass("navFix");
+				}
+				else{
+					nav2.removeClass("navFix");
+				}
+			});
+
+			//下拉框
+			
+			$(".user-center ul").hide();
+			$('.logged-on').mouseover(function(){
+				$(".user-center ul").show();
+			});
+			$('.logged-on').mouseout(function(){
+				$(".user-center ul").hide();
+			});
+
+			//游记目录
+
+			$('.right-nav ul > li > a').click(function(){
+				$(this).addClass('current').parent('li').siblings().children().removeClass('current');
+			})
+			 
+		}) 
+	</script>
+</body>
+</html>

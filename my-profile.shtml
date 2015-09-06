@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的资料</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="wrap">
+		<div class="header" style="height:0;"></div>
+		<!-- top -->
+		<!--#include file="inc/nav.shtml"-->
+
+		<div class="head-profile">
+			<div class="inner-module">
+				<a class="profile-img" href="javascript:;">
+					<img src="images/face.jpg" width="148" height="148">
+				</a>
+				<p>Rabbit</p>
+				<p>
+					<a href="youji-caogao.shtml">我的游记</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="inner-module">
+				<div class="form-module">
+					<h2 class="form-title">我的资料</h2>
+					<form>
+						<div class="form-row clearfix">
+							<label><em>*</em>用户昵称：</label>
+							<input type="text" value="Rabbit" />
+						</div>
+
+						<div class="form-row clearfix">
+							<label><em>*</em>我的密码：</label>
+							<input type="password" value="123456" />
+						</div>
+
+						<div class="form-row clearfix">
+							<label><em>*</em>真实姓名：</label>
+							<input type="text" value="小朋友" />
+						</div>
+
+						<div class="form-row clearfix">
+							<label><em>*</em>电话号码：</label>
+							<input type="text" value="1234567890" />
+						</div>
+
+						<div class="form-row clearfix">
+							<label><em>*</em>邮箱地址：</label>
+							<input type="text" value="53162564@qq.com" />
+						</div>
+
+						<div class="form-row clearfix">
+							<input class="btn btn-save" type="submit" value="保存" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!--#include file="inc/footer.shtml"-->
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//固定顶部导航
+			var headHeight=$(".header").height();
+			var nav=$(".nav");
+			$(window).scroll(function(){
+				if($(this).scrollTop()>headHeight){
+					nav.addClass("navFix");
+				}
+				else{
+					nav.removeClass("navFix");
+				}
+			});
+
+
+
+			//下拉框
+			
+			$(".user-center ul").hide();
+			$('.logged-on').mouseover(function(){
+				$(".user-center ul").show();
+			});
+			$('.logged-on').mouseout(function(){
+				$(".user-center ul").hide();
+			});
+		}) 
+	</script>
+</body>
+</html>

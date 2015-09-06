@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="full">
+<head>
+	<title>注册</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<!--#include file="inc/common.shtml"--> 
+</head>
+<body>
+	<div class="bg-page register-bg">
+		<div class="form-container">
+			<div class="form-content">
+				<form>
+					<h3>马上注册，即可参与上传游记，赢大奖！</h3>
+					<div>
+						<div class="form-group">
+							<input type="text" placeholder="用户昵称" />
+							<!-- <p class="error">请输入昵称</p> -->
+						</div>
+						<div class="form-group">
+							<input type="password" placeholder="您的密码" />
+							<!-- <p class="error">请输入正确的邮箱格式</p> -->
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="真实姓名" />
+							<!-- <p class="error">请输入真实姓名</p> -->
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="手机号码" />
+							<!-- <p class="error">请输入您的手机号码</p> -->
+						</div>
+						<div class="form-group">
+							<input type="text" placeholder="邮箱地址" />
+							<!-- <p class="error">请输入正确的邮箱格式</p> -->
+						</div>
+						<div class="form-group">
+							<input class="btn btn-mar" type="submit" value="立即注册" />
+						</div>
+						<p class="small-notice small-notice2 clearfix">
+							<span>已经注册？</span>
+							<a href="login.shtml">马上登录</a>
+							<a class="back" href="index.shtml">返回首页</a>
+						</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/placeholder.js"></script>
+</body>
+</html>
