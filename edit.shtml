@@ -63,26 +63,11 @@
 									<div class="edit-content-inner">
 										<em>*</em>
 										<div class="input-div">
-											<div id="container">
-											    <!--头部，相册选择和格式选择-->
-											    <div id="uploader">
-											        <div class="queueList">
-											            <div id="dndArea" class="placeholder">
-											                <div id="filePicker"></div>
-											                <p>上传一张封面图，图片大小不小于2M.</p>
-											            </div>
-											        </div>
-											        <div class="statusBar" style="display:none;">
-											            <div class="progress">
-											                <span class="text">0%</span>
-											                <span class="percentage"></span>
-											            </div><div class="info"></div>
-											            <div class="btns">
-											                <div id="filePicker2"></div><div class="uploadBtn">开始上传</div>
-											            </div>
-											        </div>
-											    </div>
+											<div class="clearfix">
+												<input class="img-input" type="text" id="url1" value="" />
+												<input class="img-btn" type="button" id="image1" value="选择图片" />
 											</div>
+											<p>网络图片 + 本地上传</p>
 										</div>
 									</div>
 								</div>
